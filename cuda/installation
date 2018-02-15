@@ -1,0 +1,9 @@
+when installing cuda on ubuntu make sure to match the cuda version with the ubuntu kernel version. e.g. on Ubuntu 16, kernel-4.4 is a requirement. 
+
+To remove the older kernel version
+    sudo apt-get purge linux-headers-<kernel-version> 
+    sudo apt-get purge linux-image-<kernel-version> 
+    sudo apt-get install linux-headers-<kernel-version-required> 
+    sudo atp-get install linux-image-<kernel-version-required> 
+
+
