@@ -1,0 +1,7 @@
+kernels are launched with a configuration
+execution config has number of blocks in a grid and number of threads per grid 
+every block in the grid has same number of threads 
+gridDim.x is the number of blocks in a grid 
+blockDim.x is the number of threas in a block
+blockIdx.x is the index of the current block in the grid 
+threadIdx.x is the index of the current thread in the block. 
