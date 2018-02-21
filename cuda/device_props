@@ -1,0 +1,5 @@
+cuda device properties are part of a struct called cudaDeviceProp
+the major and minor fields denote the compute capability 
+the compute capability define the max threads per block and other features 
+-arch=sm_xx is a compiler option to optimize for specific compute capability where xx is majorminor. 
+
