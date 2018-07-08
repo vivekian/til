@@ -1,0 +1,4 @@
+formatting is the task of taking a bunch of strongly typed data values from a program and translating them to "text". e.g. the number 42 is printed as "0x2A". 
+buffering is the task of taking raw bytes and sending them to an output device. e.g. on a disk or memory or a network socket. 
+
+in most cases text characters are bytes, but in some Operating Systems, this can be different where its possible two bytes may represent a single new line etc.
